@@ -92,8 +92,8 @@ int main() {
     centerObstacle.onCollision = [&bangCount](PhysicsBodyCollisionResult result) {
         cout << "bang " << bangCount << endl;
         bangCount++;
-        if (bangCount == 3) {
-            exit(0); // Exit the program after 3 collisions
+        if (bangCount == 2) {
+            exit(0); // Exit the program after 2 collisions
         }
         };
 
